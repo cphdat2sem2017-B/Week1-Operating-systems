@@ -6,7 +6,7 @@ Topics: Operatingsystems & Linux, Webserver og MySQL in the cloud
 We will look at how to set up a linux server on digitalocean, how to manage users on the machine, and how to navigate the server from the command prompt.
 
 * [Powerpoint slides](slides/Day_1.pdf)
-* [Exercises](./study/day1exercises.md)
+* [Exercises](week-4-Operating-systems/study/day1exercises.md)
 
 Readings:
 
