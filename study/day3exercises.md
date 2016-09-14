@@ -1,3 +1,4 @@
+![Alt text](img/lotussm.png)
 #Day 3 MySQL exercises
 The program for today is to get MySQL installed on your ubuntu machine. Setting up users, and doing SQL from the MySQL commandprompt
 
@@ -46,6 +47,7 @@ Connect as the user transformer - can you as this user make changes to the class
 
 ##Task 8
 Write a simple Java program which prints out first and last name of all employees using system.out.println. The program should connect as the user 'reader' from the task above to make the database connection.
+
 
 #Creating users on MySQL
 The short tutorial <https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql> tells most things one need to get started.
