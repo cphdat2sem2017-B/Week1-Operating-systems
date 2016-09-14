@@ -5,8 +5,8 @@ Topics: Operatingsystems & Linux, Webserver og MySQL in the cloud
 ##Day 1 (Tuesday): Linux in the cloud
 We will look at how to set up a linux server on digitalocean, how to manage users on the machine, and how to navigate the server from the command prompt.
 
-* Powerpoint slides - [see here](slides/Day_1.pdf)
-* Exercises - see study/day1exercises.md
+* [Powerpoint slides](slides/Day_1.pdf)
+* [Exercises](study/day1exercises.md)
 
 Readings:
 
@@ -20,8 +20,8 @@ Readings:
 Using passwords to secure a server is considered insecure. Instead one use ssh-keys.
 Also, we will take a look at bash-scripting to automate things on linux. In particular we will automate setting up a linux server with users for your group.
 
-* Powerpoint slides - see slides/Day_2.pdf
-* Exercises - see study/day2exersicises.md
+* [Powerpoint slides](slides/Day_2.pdf)
+* [Exercises](study/day2exersicises.md)
 
 Readings:
 
@@ -35,7 +35,7 @@ Readings:
 ##Day 3: MySQL in the cloud
 We will setup MySQL on the ubunto server, set up users on MySQL with different rights, and work with SQL from the sql prompt. Also, we will connect to the server from MySQLWorkbench and from Java.
 
-* Exercises - see study/day2exersicises.md
+* [Exercises](study/day3exersicises.md)
 
 Readings:
 
@@ -43,5 +43,5 @@ Readings:
 
 ##Day 4 - Studypoint exercise
 
-* Full assignment - see study/studypointExercise
+* Full assignment - see [study/studypointExercise.md](study/studypointExercise.md)
 
