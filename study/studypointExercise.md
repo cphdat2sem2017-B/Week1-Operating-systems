@@ -28,7 +28,7 @@ Add a database user named "reader" with the password "bookworm#17laesehest" whic
 Follow the instructions in the document [Tomcat On Your Server.pdf](Tomcat On Your Server.pdf) to get the web-server tomcat installed and get the web application deployed.
 
 #Handin instructions
-You need to hand in by writing an email to **aflevering2sem@gmail.com** no later than Sunday 18th of September 2016 at 29:59.
+You need to hand in by writing an email to **aflevering2sem@gmail.com** no later than Sunday 18th of September 2016 at 23:59.
 
 The email should contain the following information
 
