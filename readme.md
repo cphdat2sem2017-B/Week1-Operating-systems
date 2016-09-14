@@ -21,7 +21,7 @@ Using passwords to secure a server is considered insecure. Instead one use ssh-k
 Also, we will take a look at bash-scripting to automate things on linux. In particular we will automate setting up a linux server with users for your group.
 
 * [Powerpoint slides](slides/Day_2.pdf)
-* [Exercises](study/day2exersicises.md)
+* [Exercises](study/day2exercises.md)
 
 Readings:
 
@@ -35,7 +35,7 @@ Readings:
 ##Day 3: MySQL in the cloud
 We will setup MySQL on the ubunto server, set up users on MySQL with different rights, and work with SQL from the sql prompt. Also, we will connect to the server from MySQLWorkbench and from Java.
 
-* [Exercises](study/day3exersicises.md)
+* [Exercises](study/day3exercises.md)
 
 Readings:
 
