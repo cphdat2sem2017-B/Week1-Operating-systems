@@ -1,4 +1,4 @@
-![Alt text](img/lotussm.png)
+![Alt text](../img/lotussm.png)
 #Studypoint exercise of week 4 of the 2nd semester
 This exercise is meant to be individual, that is, each student should hand in their own solution.
 Hand-in instructions at the end of this document.
@@ -12,7 +12,7 @@ To that end, you need three things:
 * A webserver to deploy it on
 
 ##Task 1 - ensure you have a web application
-While any web application can be used, it is suggested to use the one from the studypoint exercise from last week. If you did not manage to get it to work, you can use the one which is [available as demo solution](../demo/Webshop). 
+While any web application can be used, it is suggested to use the one from the studypoint exercise from last week. If you did not manage to get it to work, you can use the one which is [available as demo solution](../demo/WebShop). 
 
 To make the webshop run on your machine, you need to change the program in such a manner that it uses your own database. This can either be done by setting up the right tables on MySQL on your laptop, and then using localhose as your database, or you can move to task 2 below.
 
