@@ -15,11 +15,11 @@ Check to see if the server is running. Linux has a command called _service_, whi
 Start and stop the database server a few times, each time checking if it is running.
 
 ##Task 3
-Load the sql script which defines the classicmodels database(in the study folder as classicmodels.sql) we used in the first week. 
+Load the sql script which defines the classicmodels database(in the study folder as [classicmodels.sql](classicmodels.sql) ) we used in the first week. 
 One way to do this is to my the mysql prompt read from a file instead from stdin. This can be done using the "<" in the linux command:
 mysql -u root -p < file.sql
 
-You will need to copy the file from your local machine to the ubuntu first of cause.
+You will need to copy the file from your local machine to the ubuntu.
 
 ##Task 4
 From the mysql prompt, write sql expressions which solve the following three exercises from first week:
@@ -57,13 +57,13 @@ However, besides restricting what the specific user is allowed to do on each tab
 * Some users have different a desktop program which should allow them to do more than what can be done from the webinterface
 * Different user groups can have different access rights to the data
 
-In the tutorial, anywhere it says user@'localhost', one can either use an other host or IP address - **or one can omit 'localhost' or write '%'**. This mean that user can access the data from anywhere (which will be necessary to access it from MySQL workbench on your laptop).
+In the tutorial, anywhere it says user@'localhost', one can either use an other host or IP address - **or one can omit 'localhost' or write '%'**. This mean that user can access the data from anywhere (**which will be necessary to access it from MySQL workbench on your laptop**).
 
 #Opening the database to access from outside 
 By default MySQL does not allow remote connections. To change this you will need to modify the  the **bind-address** line to allow access from any machine:
 
 bind-address = 0.0.0.0
 
-This is specified in the configuration file for MySQL - which is in the directory /etc/mysql. The specific file which specifies this might vary a bit, but o
+This is specified in the configuration file for MySQL - which is in the directory /etc/mysql/mysql.conf.d/mysql.cnf.
 
 After this change MySQL should be restarted - see task above (solution: 'service mysql restart')
