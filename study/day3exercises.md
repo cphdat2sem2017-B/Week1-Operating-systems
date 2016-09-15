@@ -67,6 +67,6 @@ By default MySQL does not allow remote connections. To change this you will need
 
 bind-address = 0.0.0.0
 
-This is specified in the configuration file for MySQL - which is in the directory /etc/mysql/mysql.conf.d/mysql.cnf.
+This is specified in the configuration file for MySQL mysqld.cnf - which is in the directory /etc/mysql/mysql.conf.d/
 
 After this change MySQL should be restarted - see task above (solution: 'service mysql restart')
