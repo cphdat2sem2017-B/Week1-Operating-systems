@@ -1,9 +1,9 @@
 ![Alt text](../img/lotussm.png)
-#Studypoint exercise of week 1 of the 2nd semester
+#Studypoint exercise 1: Deploy your web project
 This exercise is meant to be individual, that is, each student should hand in their own solution.
 Hand-in instructions at the end of this document.
 
-This studypoint exercise has as its purpose to be able to deploy a web-application on a web-server running in your digitalocean linux server.
+The point of this exercise is to repeat the steps we took during the week and setup a digital ocean linux server with MySql and Tomcat. Then to deploy your own web project on to the server.
 
 To that end, you need three things:
 
@@ -12,9 +12,9 @@ To that end, you need three things:
 * A webserver to deploy it on
 
 ##Task 1 - ensure you have a web application
-While any web application can be used, it is suggested to use the one from the first semester assignment you did in january. If you did not manage to get it to work, you can use the one which is [available as demo solution](../demo/WebShop). 
+While any web application can be used, it is suggested to use the one from the first semester assignment you did in january. If you did not manage to get it to work, use this simple web application instead: [Deployment demo project](../demo/webdeploydemo)  
 
-To make the webshop run on your machine, you need to change the program in such a manner that it uses your own database. This can either be done by setting up the right tables on MySQL on your laptop, and then using localhost as your database, or you can move to task 2 below.
+To make the application run on your machine, you need to change the program in such a manner that it uses your own database. This can either be done by setting up the right tables on MySQL on your laptop, and then using localhost as your database, or you can move to task 2 below.
 
 ##Task 2 - deploy the database on the linux server
 As part of your web site, you should have an SQL script which can be used to set up the tables and insert relevant data into those. Use that sql script to set up the right tables on your MySQL server on your linux machine. You can either do this by connecting to your MySQL server using MySQLWorkbench, or by logging onto your linux server and running the script from the command prompt. Using MySQLWorkbench might be easier, but you will learn more by doing it from the command prompt.
