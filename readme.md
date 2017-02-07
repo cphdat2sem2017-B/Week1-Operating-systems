@@ -1,9 +1,9 @@
 ![Alt text](img/lotussm.png)
 #week 1 Linux, Webserver og MySQL in the cloud
 
-##Day 1: Github and Linux on digital
+##Day 1: Github and Linux on Digital Ocean
 ###Github 
-First you will get an introduction to how we are usinge [github](github.com) as a learning management system.
+First you will get an introduction to how we are usinge [github](github.com) as a learning management system.  
 * Clone a repository  
 * Create a repository on github  
 * Clone your repository locally  
@@ -18,7 +18,6 @@ We will look at how to set up a linux server on digitalocean, how to manage user
 **Readings**:
 
 * <http://ryanstutorials.net/linuxtutorial/commandline.php>
-* <http://ryanstutorials.net/linuxtutorial/cheatsheet.php>
 * Nano: <http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor>
 * Nano: <http://www.tutorialspoint.com/unix_commands/nano.htm>
 

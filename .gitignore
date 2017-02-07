@@ -21,6 +21,11 @@
 **/*.war
 **/*.ear
 
+# Office files
+**/*.pptx
+**/*.docx
+**/*.xlsx
+
 ## solution folders ##
 Exercises/
 **/presentation.html
