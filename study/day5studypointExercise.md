@@ -22,9 +22,12 @@ As part of your web site, you should have an SQL script which can be used to set
 Change the web application to use the database on your linux server. Run the web application from netbeans to see that it works.
 
 ###Task 3
-Add a database user named "reader" with the password "bookworm#17laesehest" which has select rights to the database you are using.
+Now deploy your webapplication to tomcat on your linux server. Access from a browser to make sure that it works.
 
 ###Task 4
+Add a database user named "reader" with the password "bookworm#17laesehest" which has select rights to the database you are using.
+
+###Task 5
 Change your program so that only when you read data from your tables to show on the website you are using your 'reader' user. In a real world app you could imagine some actions done by an administrator and others done by a normal user.
 
 
