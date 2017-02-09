@@ -11,6 +11,24 @@ First you will get an introduction to how we are usinge [github](github.com) as 
 
 ###Linux
 We will look at how to set up a linux server on digitalocean, how to manage users on the machine, and how to navigate the server from the command prompt.
+```
+ssh root@SERVER_IP_ADDRESS  
+adduser <user>  
+usermod -aG sudo <user>  
+su <user>  
+cd ~/  
+mkdir ~/.ssh  
+chmod 700 ~/.ssh  
+nano ~/.ssh/authorized_keys  
+```
+Insert your ssh public key here.
+Check this file: `sudo nano /etc/ssh/sshd_config` to see if `PasswordAuthentication no` is there
+```
+chmod 600 ~/.ssh/authorized_keys  
+exit  
+sudo systemctl reload sshd  
+```  
+Now check if you can log in with `<user>` from a terminal 
 
 * [Slides](slides/Day_1.pdf)
 * [Exercises](study/day1exercises.md)
