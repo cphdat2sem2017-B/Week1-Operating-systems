@@ -68,6 +68,7 @@ service mysql restart
 
 **Readings**:  
   * Installing MySQL: <https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04>  
+  * Use ssh tunneling to access mysql server from outside: <https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-methods-ssh.html>  
   
 ##Day 4 - Tomcat exercise
 We will setup Tomcat server on the ubuntu server. We will then deploy a small web application using both tomcat and mysql. We will use the following commands:
