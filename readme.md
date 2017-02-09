@@ -59,5 +59,5 @@ We will setup Tomcat server on the ubuntu server. We will then deploy a small we
     
 ##Day 5 - Studypoint exercise  
 
-* Full assignment - see [study/studypointExercise.md](study/studypointExercise.md)
+* Full assignment - see [study/studypointExercise.md](study/day5studypointExercise.md)
 
