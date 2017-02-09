@@ -19,7 +19,7 @@ Connect your web application with the database an test to see if your view is wo
 1. Create a folder named "tomcat8-myapp" in /usr/share.
 2. Create a folder "myapp" under /usr/share/tomcat8-myapp.
 3. Copy the HTML file to /usr/share/tomcat8-myapp/myapp. It must be named index.html.
-4. Go to /etc/tomcat6/Catalina/localhost  
+4. Go to /etc/tomcat8/Catalina/localhost  
 5. Create an xml file "myapp.xml" (i guess it must have the same name as the name of the folder in step 2) with the following contents:
 `< Context path="/myapp" docBase="/usr/share/tomcat8-myapp/myapp"/>`  
 6. This xml is called the 'Deployment Descriptor' which Tomcat reads and automatically deploys your app named "myapp".  
