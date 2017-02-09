@@ -42,7 +42,6 @@ Also, we will take a look at bash-scripting to automate things on linux. In part
 ##Day 3: MySQL in the cloud
 We will setup MySQL on the ubuntu server, set up users on MySQL with different rights, and work with SQL from the sql prompt. Also, we will connect to the server from MySQL Workbench and from our java program
 
-* [Slides](slides/Day_3.pdf)
 * [Exercises](study/day3exercises.md)
 
 **Readings**:  
@@ -51,7 +50,6 @@ We will setup MySQL on the ubuntu server, set up users on MySQL with different r
 ##Day 4 - Tomcat exercise
 We will setup Tomcat server on the ubuntu server. We will then deploy a small web application using both tomcat and mysql.  
 
-* [Slides](slides/Day_4.pdf)
 * [Exercises](study/day4exercises.md)
 * Readings: 
   * [Tomcat on Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)
