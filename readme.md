@@ -9,8 +9,9 @@ First you will get an introduction to how we are usinge [github](github.com) as 
 * Clone your repository locally  
 * Add, Commit, Push
 
-###Linux
-We will look at how to set up a linux server on digitalocean, how to manage users on the machine, and how to navigate the server from the command prompt.
+##Linux
+We will look at how to set up a linux server on digitalocean, how to manage users on the machine, and how to navigate the server from the command prompt. When settin up the server for the first time we will use this [tutorial](study/Getting Started with Digital Ocean.pdf)  
+###The tutorial contains these commands:
 ```
 ssh root@SERVER_IP_ADDRESS  
 adduser <user>  
@@ -21,8 +22,9 @@ mkdir ~/.ssh
 chmod 700 ~/.ssh  
 nano ~/.ssh/authorized_keys  
 ```
-Insert your ssh public key here.
-Check this file: `sudo nano /etc/ssh/sshd_config` to see if `PasswordAuthentication no` is there
+Insert your ssh public key here.  
+
+Check this file: `sudo nano /etc/ssh/sshd_config` to see if `PasswordAuthentication no` is there  
 ```
 chmod 600 ~/.ssh/authorized_keys  
 exit  
