@@ -13,7 +13,8 @@ Deploy the .war file to tomcat using the tomcat manager
 Extend your web app to show a list of items comming from at database table  
 Create the table on your mysql server on digital ocean.  
 Insert data in the table  
-Connect your web application with the database an test to see if your view is working
+Run your web application first locally and then deploy it to your digital ocean server and test it from a browser.
+
 
 ###Task 4 - Try deploying directly on tomcat  
 1. Create a folder named "tomcat8-myapp" in /usr/share.
