@@ -70,3 +70,6 @@ bind-address = 0.0.0.0
 This is specified in the configuration file for MySQL mysqld.cnf - which is in the directory /etc/mysql/mysql.conf.d/
 
 After this change MySQL should be restarted - see task above (solution: 'service mysql restart')
+
+Alternatively use a ssh tunnel to access sql server from outside as though you were a local user:  
+[https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-methods-ssh.html](https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-methods-ssh.html)
