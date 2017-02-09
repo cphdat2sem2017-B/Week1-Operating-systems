@@ -40,15 +40,7 @@ Also, we will take a look at bash-scripting to automate things on linux. In part
 * SSH & connecting to ubuntu: <https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process>
 
 ##Day 3: MySQL in the cloud
-We will setup MySQL on the ubuntu server, set up users on MySQL with different rights, and work with SQL from the sql prompt. Also, we will connect to the server from MySQL Workbench and from our java program
-
-* [Exercises](study/day3exercises.md)
-
-**Readings**:  
-  * Installing MySQL: <https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04>  
-  
-##Day 4 - Tomcat exercise
-We will setup Tomcat server on the ubuntu server. We will then deploy a small web application using both tomcat and mysql.  
+We will setup MySQL on the ubuntu server, set up users on MySQL with different rights, and work with SQL from the sql prompt. Also, we will connect to the server from MySQL Workbench and from our java program:
 ### The commands needed for this are
 ```
 sudo apt-get update
@@ -71,7 +63,37 @@ exit
 service mysql restart
 ```
 
-* [Exercises](study/day4exercises.md)
+
+* [Exercises](study/day3exercises.md)
+
+**Readings**:  
+  * Installing MySQL: <https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04>  
+  
+##Day 4 - Tomcat exercise
+We will setup Tomcat server on the ubuntu server. We will then deploy a small web application using both tomcat and mysql. We will use the following commands:
+```
+apt-get install tomcat8 tomcat8-admin
+apt-get install haveged 
+nano /etc/tomcat8/tomcat-users.xml
+```
+Insert: `<role rolename="manager-gui"/><user name="admin" password="XXX" roles="manager-gui, manager-script"/>` and save
+```
+service tomcat8 restart
+sudo nano /etc/tomcat8/server.xml
+```
+Replace `Connector port="8080"` with `Connector port="80"` in line 71
+```
+sudo nano /etc/default/tomcat8
+```
+Change `#AUTHBIND=no` to `AUTHBIND=yes` (remember to remove the #-sign)
+``` 
+service tomcat8 restart
+```  
+     
+- Now open a browser from your laptop and go to: `<your ubuntu ip>/manager`
+- Deploy a web application from here  
+
+* [Exercises](study/day4exercises.md)  
 * Readings: 
   * [Tomcat on Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)
   * [General about tomcat](https://www.ntu.edu.sg/home/ehchua/programming/howto/tomcat_more.html)  
