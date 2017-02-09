@@ -49,6 +49,27 @@ We will setup MySQL on the ubuntu server, set up users on MySQL with different r
   
 ##Day 4 - Tomcat exercise
 We will setup Tomcat server on the ubuntu server. We will then deploy a small web application using both tomcat and mysql.  
+### The commands needed for this are
+```
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo mysql_secure_installation
+mysql -u root -p
+CREATE DATABASE test;
+```
+Then change this file:  
+“/etc/mysql/mysql.conf.d/mysqld.cnf”
+by commenting out the bind-address line like this:
+ #bind-address = localhost
+ ```
+mysql -u root –p 
+CREATE USER 'testuser'@'localhost' IDENTIFIED BY 'password123'; 
+CREATE USER 'testuser'@'%' IDENTIFIED BY 'password123'; 
+GRANT ALL ON test.* TO 'testuser'@'localhost'; 
+GRANT ALL ON test.* TO 'testuser'@'%';
+exit
+service mysql restart
+```
 
 * [Exercises](study/day4exercises.md)
 * Readings: 
