@@ -46,13 +46,18 @@ We will setup MySQL on the ubuntu server, set up users on MySQL with different r
 * [Exercises](study/day3exercises.md)
 
 **Readings**:  
-  * Installing MySQL: <https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04>
+  * Installing MySQL: <https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04>  
+  
 ##Day 4 - Tomcat exercise
+We will setup Tomcat server on the ubuntu server. We will then deploy a small web application using both tomcat and mysql.  
+
 * [Slides](slides/Day_4.pdf)
 * [Exercises](study/day4exercises.md)
 * Readings: 
   * [Tomcat on Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)
-##Day 5 - Studypoint exercise
+  * [General about tomcat](https://www.ntu.edu.sg/home/ehchua/programming/howto/tomcat_more.html)  
+    
+##Day 5 - Studypoint exercise  
 
 * Full assignment - see [study/studypointExercise.md](study/studypointExercise.md)
 
