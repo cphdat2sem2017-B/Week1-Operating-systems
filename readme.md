@@ -29,6 +29,11 @@ exit
 sudo systemctl reload sshd  
 ```  
 Now check if you can log in with `<user>` from a terminal 
+Install java:  
+```
+sudo apt-get install default-jdk
+java -version
+```
 
 * [Slides](slides/Day_1.pdf)
 * [Exercises](study/day1exercises.md)
