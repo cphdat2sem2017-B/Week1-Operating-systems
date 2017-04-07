@@ -30,7 +30,8 @@ chmod 600 ~/.ssh/authorized_keys
 exit  
 sudo systemctl reload sshd  
 ```  
-Now check if you can log in with `<user>` from a terminal 
+Now check if you can log in with `<user>` from a terminal.  
+
 Install java:  
 ```
 sudo apt-get install default-jdk
