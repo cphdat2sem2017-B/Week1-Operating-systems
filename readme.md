@@ -74,9 +74,10 @@ sudo apt-get install mysql-server
 sudo mysql_secure_installation
 mysql -u root -p
 CREATE DATABASE test;
+exit
 ```
 Then change this file:  
-“/etc/mysql/mysql.conf.d/mysqld.cnf”
+“sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf”
 by commenting out the bind-address line like this:
  #bind-address = localhost
  ```
